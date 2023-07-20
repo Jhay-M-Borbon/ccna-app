@@ -1,0 +1,129 @@
+.modern-card {
+    color: #333;
+   background-color: rgba(255, 255, 255, 0.8); /* Set the background color to white with 80% opacity */
+   border-radius: 8px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  
+  }
+  ion-content {
+  --background: url('splash1.png') no-repeat center center / cover;
+  }
+  .modern-list {
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.9); /* Set the background color to white with 80% opacity */
+  
+  }
+  
+  .clickable-item {
+  cursor: pointer;
+  color: #007bff;
+  transition: color 0.3s;
+  }
+  
+  .clickable-item:hover {
+  color: #0056b3;
+  text-decoration: underline;
+  
+  }
+  .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  }
+  
+  .header-date {
+  font-size: 16px;
+  opacity: 0.8;
+  }
+  .header-right {
+  display: flex;
+  align-items: center;
+  }
+  
+  .header-weather-icon {
+  margin-right: 10px;
+  }
+  .header-weather-icon img {
+  width: 30px;
+  height: 30px;
+  }
+  .header-time {
+  font-size: 18px;
+  font-weight: bold;
+  }
+  .flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  padding-top: 10px;
+  
+  
+  }
+  
+  
+  .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  }
+  
+  .content {
+  padding-top: 57px; /* Adjust this value based on your header height */
+  }
+  
+  .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .header-left {
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .header-date,
+  .header-time {
+  font-size: 16px;
+  opacity: 0.8;
+  }
+  
+  .header-right {
+  display: flex;
+  align-items: center;
+  }
+  
+  .header-weather {
+  display: flex;
+  align-items: center;
+  }
+  
+  .header-weather-icon {
+  margin-right: 10px;
+  }
+  
+  .header-weather-icon img {
+  width: 40px;
+  height: 40px;
+  }
+  
+  .header-weather-temp {
+  font-size: 18px;
+  font-weight: bold;
+  }
+  
+  .header-weather-description {
+  font-size: 14px;
+  opacity: 0.8;
+  }
+  
+  
+  
+  

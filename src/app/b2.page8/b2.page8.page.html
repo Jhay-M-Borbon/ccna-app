@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>WANs</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <ion-card class="modern-card">
+    <img src="assets/icon/logo.png" alt="" class="logo">
+    <ion-card-header>
+      <ion-card-title class="flex-center">WELCOME</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+  
+      <ion-card lines="none" class="modern-list">
+        <ion-item class="clickable-item" (click)="onItemClick('Item 1')">
+          <ion-label>
+           
+            Point To Point
+          </ion-label>
+          <ion-icon name="arrow-forward" slot="end" ></ion-icon>
+        </ion-item>
+    
+        <ion-item class="clickable-item" (click)="onItemClick('Item 2')">
+          <ion-label>
+            
+            GRE
+          </ion-label>
+          <ion-icon name="arrow-forward" slot="end"></ion-icon>
+        </ion-item>
+
+        <ion-item class="clickable-item" (click)="onItemClick('Item 3')">
+          <ion-label>
+            
+            QOS
+          </ion-label>
+          <ion-icon name="arrow-forward" slot="end"></ion-icon>
+        </ion-item>
+      </ion-card>
+  
+    </ion-content>
+    

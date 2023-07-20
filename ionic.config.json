@@ -1,0 +1,7 @@
+{
+  "name": "ccna-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

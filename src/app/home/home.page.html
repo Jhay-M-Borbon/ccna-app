@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    
+    <div class="header-content">
+      <div class="header-left">
+        <div class="header-date">Today, {{ currentDate | date }}</div>
+      </div>
+      <div class="header-right">
+        <div class="header-time">
+          <ion-icon name="time"></ion-icon>
+          {{ currentTime | date: 'HH:mm:ss' }}
+        </div>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content class="content" scrollY="false">
+  <ion-card class="modern-card">
+    <ion-card-content>
+      <img src="assets/icon/ccna.png" alt="Silhouette of mountains" class="card-image" />
+    </ion-card-content>
+  </ion-card>
+
+  <div class="flex-center">
+    <!-- Buttons -->
+  
+    <ion-button fill="outline" class="custom-button" (click)="onButton1Click()">WINDOWS</ion-button>
+    <ion-button fill="outline" class="custom-button" (click)="onButton2Click()">COMMANDS</ion-button>
+    <ion-button fill="outline" class="custom-button" (click)="onButton3Click()">NETWORK TOPOLOGY</ion-button>
+
+    
+    <!-- Exit Button -->
+    <ion-button fill="outline" class="exit-button" (click)="onExitClick()">Exit</ion-button>
+  </div>
+</ion-content>

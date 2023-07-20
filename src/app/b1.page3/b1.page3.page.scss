@@ -1,0 +1,40 @@
+
+  
+ .card {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.9); /* Set the background color to white with 80% opacity */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+  
+  
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .network-device {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    width: 250px;
+    margin-right: 20px;
+  }
+  
+  .description {
+    flex-grow: 1;
+    font-family: Arial, sans-serif; /* Change the font family */
+    font-size: 5px; /* Adjust the font size as desired */
+  }
+  
+  
+
+  ion-content.content {
+    --background: transparent; /* Set the background color to transparent */
+    background-image: url("splash1.png"); /* Update the image path and filename */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

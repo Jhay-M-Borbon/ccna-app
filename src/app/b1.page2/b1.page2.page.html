@@ -1,0 +1,109 @@
+<ion-header [translucent]="true">
+      
+      
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Windows CMD Commands</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content scrollY="true" class="content">
+  <ion-grid>
+    <ion-row justify-content-center>
+      <ion-col size-sm="12" size-md="8" size-lg="6">
+        <ion-card class="card">
+          
+          <ion-card-content class="card-content">
+          
+          
+                <ion-card-title class="card-title">Windows Command Line</ion-card-title>
+            
+                <div class="command-line">
+                  <p><strong>C:&gt; ping</strong></p>
+                  <hr class="line">
+                  <p>Sends ICMP Echo Request messages to a specified network host to test connectivity and measure the response time.</p>
+                </div>
+            
+                <div class="command-line">
+                  <p><strong>C:&gt; ipconfig</strong></p>
+                  <hr class="line">
+                  <p>Displays the IP configuration for all network interfaces on the local machine, including IP addresses, subnet masks, and default gateways.</p>
+                </div>
+            
+                <div class="command-line">
+                  <p><strong>C:&gt; ipconfig /all</strong></p>
+                  <hr class="line">
+                  <p>Displays detailed IP configuration information for all network interfaces on the local machine.</p>
+                </div>
+            
+                <div class="command-line">
+                  <p><strong>C:&gt; ipconfig /release</strong></p>
+                  <hr class="line">
+                  <p>Releases the IP address of the specified network adapter.</p>
+                </div>
+            
+                <div class="command-line">
+                  <p><strong>C:&gt; ipconfig /renew</strong></p>
+                  <hr class="line">
+                  <p>Renews the IP address of the specified network adapter.</p>
+                </div>
+            
+                <div class="command-line">
+                  <p><strong>C:&gt; pathping</strong></p>
+                  <hr class="line">
+                  <p>Provides information about the path that network packets take to reach a destination, including information about packet loss and latency at each hop.</p>
+                </div>
+            
+                <div class="command-line">
+                  <p><strong>C:&gt; tracert</strong></p>
+                  <hr class="line">
+                  <p>Traces the route that packets take to reach a network host, showing the IP addresses of the intermediate hops.</p>
+                </div>
+            
+                <div class="command-line">
+                  <p><strong>C:&gt; netstat</strong></p>
+                  <hr class="line">
+                  <p>Displays active network connections and listening ports on the local machine.</p>
+                </div>
+            
+                <div class="command-line">
+                  <p><strong>C:&gt; netdiag</strong></p>
+                  <hr class="line">
+                  <p>Performs a variety of network diagnostic tests to diagnose common network connectivity issues.</p>
+                </div>
+            
+                <div class="command-line">
+                  <p><strong>C:&gt; nbtstat -a</strong></p>
+                  <hr class="line">
+                  <p>Displays NetBIOS over TCP/IP (NetBT) protocol statistics and current TCP/IP connections using NetBIOS.</p>
+                </div>
+            
+                <div class="command-line">
+                  <p><strong>C:&gt; hostname</strong></p>
+                  <hr class="line">
+                  <p>Displays the host name of the current computer.</p>
+                </div>
+            
+                <div class="command-line">
+                  <p><strong>C:&gt; arp -a</strong></p>
+                  <hr class="line">
+                  <p>Displays the Address Resolution Protocol (ARP) cache, which maps IP addresses to MAC addresses.</p>
+                </div>
+            
+                <div class="command-line">
+                  <p><strong>C:&gt; nslookup</strong></p>
+                  <hr class="line">
+                  <p>Performs DNS (Domain Name System) queries to retrieve information about domain names, IP addresses, and other DNS records.</p>
+                </div>
+              </ion-card-content>
+            </ion-card>
+            
+      
+
+        
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

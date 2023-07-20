@@ -1,0 +1,53 @@
+img.zoom {
+  transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+img.zoom:hover {
+  transform: scale(1.2); /* Zoom the image by 20% on hover */
+}
+  .card {
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.9); /* Set the background color to white with 80% opacity */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .card-content {
+    padding:20px;
+  }
+  
+
+  .shrink-image {
+    max-width: 350x; /* Adjust the desired maximum width */
+    max-height: 250px; /* Adjust the desired maximum height */
+    width: auto;
+    height: auto;
+  }
+  
+  .shrink-image1 {
+    max-width: 350px; /* Adjust the desired maximum width */
+    max-height: 250px; /* Adjust the desired maximum height */
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+ion-content.content {
+  --background: transparent; /* Set the background color to transparent */
+  background-image: url("splash1.png"); /* Update the image path and filename */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img.zoomed {
+  transform: scale(1.5); /* Adjust the scale factor as per your requirement */
+  cursor: zoom-out;
+}
